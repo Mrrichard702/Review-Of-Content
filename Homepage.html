@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Majima Fanpage</title>
+  </head>
+  <body>
+    <!--NOTE: below is how you write a multiline comment-->
+    <!--
+      the three semantic tags that must be on every page you create
+      are header, main, and footer.
+
+      most semantic tags are containers. They need actual HTML elements inside them.
+      just putting text inside a footer without a p tag or h2 is not acceptable.
+      An exception is figcaption.
+    -->
+    <header>
+      <h1>Majima Fanpage</h1>
+      <nav>
+        <ul>
+          <li><a href="Homepage.html">Home Page</a></li>
+          <li><a href="Majima's-Karaoke.html">Karaoke Career</a></li>
+          <li><a href="Friends-Of-Majima.html">Majima's Friends</a></li>
+          <li><a href="Who-Does-He-Sing.html">why does he sing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--We create sections for areas of related content-->
+      <section>
+        <!--
+          Inside semantic tags, we can use divs to further group content
+          (containers inside containers).
+        -->
+        <div>
+          <h2>who is Goro Who is Majima</h2>
+          <p>
+            "He is a recurring major character in the Yakuza series series first
+            introduced in the original Yakuza. He is a Fierce Yakuza member and
+            a karaoke singer."
+            <a
+              href="https://yakuza.fandom.com/wiki/Goro_Majima"
+              target="_blank">
+              - Yakuza wiki
+            </a>
+          </p>
+        </div>
+        <figure>
+          <figcaption>the image below is an image of Goro Majima.</figcaption>
+          <img
+            src="images/The_Idol.webp"
+            alt="An image of Goro Majima from Yakuza 0.
+              in an all black suit with a pair of steel toed shoes.
+              he has his hair tied back and has a bowtie.
+              " />
+        </figure>
+      </section>
+    </main>
+    <footer>
+      <!--this is the corrext way to put contnet inside a container.
+          this is the correct way to add text decoration.
+      -->
+      <p><small>&#169; Evan Ross</small></p>
+    </footer>
+  </body>
+</html>
