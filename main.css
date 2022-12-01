@@ -1,0 +1,44 @@
+/*This will style all elements to have This will change the edges of elements.
+Also a line spcaing of 140% of the font size of the element.
+  
+*/
+* {
+  margin: 0;
+  line-height: 140%;
+}
+/*
+this will style the html element (also known as the
+root element) to have a default font-size of 62.5%
+of the default font size for the browser.
+*/
+html {
+  font-size: 62.5%;
+}
+
+/*
+This styles the section that holds all of my important
+information to have a spacing on the top and bottom of the section
+and spacing that is equal to 5% of the width of the browser window
+on the left and right sides of the section.
+*/
+main {
+  margin: 0 5%;
+}
+/* 
+all elements with a span will be styled to bold
+*/
+span {
+  font-weight: bold;
+}
+/* 
+this makes all elements with an id of Surname be underlined
+*/
+#Surname {
+  text-decoration: underline;
+}
+/* 
+all elements with the class of Full-Name to be italicized
+*/
+.Full-Name {
+  font-style: italic;
+}
